@@ -17,7 +17,7 @@ public class TddStack {
         return false;
     }
 
-    boolean isFull() { return false;}
+    boolean isFull() { return false; }
 
     IStackable pop() {
         //any object can be null; again, just to get it to compile

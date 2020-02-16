@@ -8,8 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class TddStackTest {
 
@@ -24,6 +23,7 @@ public class TddStackTest {
     @Test
     public void testDefaultConstructor()
     {
+        TddStack testObject = new TddStack();
         int expected = TddStack.DEFAULT_DEPTH;
         assertEquals(expected, testObject.stackDepth);
     }
