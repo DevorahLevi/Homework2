@@ -38,7 +38,6 @@ public class TddStackTest {
     {
         TddStack tddStack = new TddStack();
         assertFalse(tddStack.isFull());
-        int testUpdate = 0;
     }
 
     @Test
