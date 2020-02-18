@@ -3,7 +3,6 @@ package edu.htc.blitstein.caih313.tddstack.engine;
 import edu.htc.blitstein.caih313.tddstack.IStackable;
 import edu.htc.blitstein.caih313.tddstack.resource.campus.Faculty;
 import edu.htc.blitstein.caih313.tddstack.resource.campus.Student;
-import jdk.jfr.StackTrace;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -39,6 +38,7 @@ public class TddStackTest {
     {
         TddStack tddStack = new TddStack();
         assertFalse(tddStack.isFull());
+        int testUpdate = 0;
     }
 
     @Test
